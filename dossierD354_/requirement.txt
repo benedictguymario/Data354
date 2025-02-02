@@ -1,0 +1,10 @@
+chainlit
+langchain-community
+langchain
+chromadb
+sentence-transformers
+google-generativeai
+python-dotenv
+requests
+streamlit
+transformers==4.36.0 
