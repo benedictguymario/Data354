@@ -187,6 +187,3 @@ chainlit run  Ecofin.py
 
 Ce chatbot utilise une combinaison d'outils puissants pour fournir des réponses intelligentes et pertinentes basées sur des articles du site *Ecofin*. Il gère l'historique des conversations, le contexte pertinent des articles, et fournit des réponses personnalisées tout en recueillant des retours utilisateurs pour améliorer son service.😊
 
-
-## Accès au Chatbot 🚀  
-🔗 [Lien vers le chatbot déployé](https://d354.onrender.com)
