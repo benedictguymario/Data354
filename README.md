@@ -30,7 +30,7 @@ Avant de lancer l'application, assurez-vous que vous avez installé toutes les d
 Installez ces bibliothèques avec la commande `pip` :
 
 ```bash
-pip install chainlit langchain sentence-transformers google-generativeai python-dotenv
+pip install -r requrement.txt
 ```
 
 ---
@@ -40,7 +40,7 @@ pip install chainlit langchain sentence-transformers google-generativeai python-
 1. Créez un fichier `.env` dans le répertoire racine de votre projet et ajoutez votre clé API comme suit :
 
 ```plaintext
-GENAI_API_KEY=your_api_key_here
+GENAI_API_KEY=Cle_api
 ```
 
 ---
