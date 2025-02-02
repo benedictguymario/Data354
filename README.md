@@ -1,11 +1,12 @@
 # **📚 Documentation de la solution : Chatbot Ecofin 🤖**
 
-# Structure des fichiers
+## Structure du dossier Dossier354_
 
 - **D54 (Scrapper)** : Fonction qui prend en paramètre la date de début (`AAAA-MM-JJ`) et la date de fin (`AAAA-MM-JJ`).
 - **Ecofin** : Fichier contenant le code source du chatbot.
 - **ChromaDB** : Base de données vectorielle qui constitue la base de connaissance.
 - **requirement.txt** : Fichier contenant les dépendances nécessaires au bon fonctionnement du chatbot.
+
 
 ## **🔍 Introduction**
 
@@ -44,7 +45,7 @@ pip install -r requrement.txt
 
 ### **🔑 Clé API GenAI**
 
-1. Créez un fichier `.env` dans le répertoire racine de votre projet et ajoutez votre clé API (lien:https://aistudio.google.com/app/apikey?hl=fr&_gl=1*1p959pl*_ga*MTMyNDkxODU2OS4xNzM3OTE5ODQ2*_ga_P1DBVKWT6V*MTczODUzMDA4Ni4xMS4wLjE3Mzg1MzAwODYuNjAuMC4zMjU3MDM3NA..) comme suit :
+1. Créez un fichier `.env`  dans le répertoire racine de votre projet et ajoutez votre clé API ou (vous pouvez  utiliser la clé qui se trouve dans le fichier`.env` que vous pour le deplacer dans le dossier `Dossier354_`.(lien:https://aistudio.google.com/app/apikey?hl=fr&_gl=1*1p959pl*_ga*MTMyNDkxODU2OS4xNzM3OTE5ODQ2*_ga_P1DBVKWT6V*MTczODUzMDA4Ni4xMS4wLjE3Mzg1MzAwODYuNjAuMC4zMjU3MDM3NA..) comme suit :
 
 ```plaintext
 GENAI_API_KEY=Cle_api
@@ -166,10 +167,10 @@ async def chat_start():
 1. **Démarrer l'application** : Vous pouvez démarrer le chatbot avec la commande suivante :
 
 ```bash
-chainlit run  test.py
+chainlit run  Ecofin.py
 ```
 
-2. **Interaction avec l'utilisateur** : Le chatbot commencera à poser des questions pour obtenir des informations sur les articles. L'utilisateur pourra poser des questions et le chatbot répondra en fonction du contenu de la base de données.
+2. **Interaction avec l'utilisateur** :  L'utilisateur pourra poser des questions et le chatbot répondra en fonction du contenu de la base de données.
 
 3. **Réponses et enquête de satisfaction** : Après chaque réponse, une enquête de satisfaction est envoyée pour savoir si l'utilisateur est satisfait de la réponse.
 
@@ -185,6 +186,8 @@ chainlit run  test.py
 ## **🔚 Conclusion**
 
 Ce chatbot utilise une combinaison d'outils puissants pour fournir des réponses intelligentes et pertinentes basées sur des articles du site *Ecofin*. Il gère l'historique des conversations, le contexte pertinent des articles, et fournit des réponses personnalisées tout en recueillant des retours utilisateurs pour améliorer son service.😊
+
+
 
 
 
