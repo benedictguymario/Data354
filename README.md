@@ -1,5 +1,12 @@
 # **📚 Documentation de la solution : Chatbot Ecofin 🤖**
 
+# Structure des fichiers
+
+- **D54 (Scrapper)** : Fonction qui prend en paramètre la date de début (`AAAA-MM-JJ`) et la date de fin (`AAAA-MM-JJ`).
+- **Ecofin** : Fichier contenant le code source du chatbot.
+- **ChromaDB** : Base de données vectorielle qui constitue la base de connaissance.
+- **requirement.txt** : Fichier contenant les dépendances nécessaires au bon fonctionnement du chatbot.
+
 ## **🔍 Introduction**
 
 Ce code implémente un chatbot intelligent utilisant **Chainlit** et l'API **Google Generative AI (GenAI)**, combiné à un moteur d'**embedding** basé sur **Sentence-Transformers** pour la recherche de contenu pertinent dans une base de données **Chroma**. Le chatbot aide les utilisateurs à obtenir des informations détaillées sur des articles du site *Ecofin*.
