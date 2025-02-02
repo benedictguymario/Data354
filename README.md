@@ -37,7 +37,7 @@ pip install -r requrement.txt
 
 ### **🔑 Clé API GenAI**
 
-1. Créez un fichier `.env` dans le répertoire racine de votre projet et ajoutez votre clé API comme suit :
+1. Créez un fichier `.env` dans le répertoire racine de votre projet et ajoutez votre clé API (lien:https://aistudio.google.com/app/apikey?hl=fr&_gl=1*1p959pl*_ga*MTMyNDkxODU2OS4xNzM3OTE5ODQ2*_ga_P1DBVKWT6V*MTczODUzMDA4Ni4xMS4wLjE3Mzg1MzAwODYuNjAuMC4zMjU3MDM3NA..) comme suit :
 
 ```plaintext
 GENAI_API_KEY=Cle_api
