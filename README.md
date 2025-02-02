@@ -185,5 +185,21 @@ chainlit run  Ecofin.py
 
 ## **🔚 Conclusion**
 
-Ce chatbot utilise une combinaison d'outils puissants pour fournir des réponses intelligentes et pertinentes basées sur des articles du site *Ecofin*. Il gère l'historique des conversations, le contexte pertinent des articles, et fournit des réponses personnalisées tout en recueillant des retours utilisateurs pour améliorer son service.😊
+Ce chatbot utilise une combinaison d'outils puissants pour fournir des réponses intelligentes et pertinentes basées sur des articles du site *Ecofin*. Il gère l'historique des conversations, le contexte pertinent des articles, et fournit des réponses personnalisées tout en recueillant des retours utilisateurs pour améliorer son service.
 
+# Remarque:
+### 🔹 **1️⃣ Gemini-1.5-Flash**  
+✅ **Points forts** :  
+- **Ultra-rapide** et optimisé pour **des tâches simples et courtes**.
+
+### 🔹 **2️⃣ Gemini-1.5-Flash-Exp**  
+✅ **Points forts** :  
+- Basé sur **Gemini-1.5-Flash**, mais avec une **capacité d'expansion**.  
+- Meilleur traitement des **conversations longues** et des **analyses plus détaillées**
+
+### 🔹 **3️⃣ Gemini-2-Thinking-Exp**  
+✅ **Points forts** :  
+- **Version avancée pour le raisonnement approfondi** et les tâches complexes.  
+- Capacité à **analyser, structurer et générer des réponses détaillées**.  
+- Idéal pour **les analyses financières, les décisions stratégiques et la compréhension approfondie**.  
+- Peut **expliquer son raisonnement** étape par étape. 
